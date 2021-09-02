@@ -4,18 +4,18 @@ Plataforma de cores para uso em projetos de interface do FCx Labs.
 
 ## Installation
 
-`yarn add fcxlabs-colors`
+`yarn add @fcx/colors`
 
 or
 
-`npm i fcxlabs-colors`
+`npm i @fcx/colors`
 
 ## Usage
 
 ### stylesheet:
 
 ```js
-import { red } from "fcxlabs-colors";
+import { red } from "@fcx/colors";
 
 const styles = StyleSheet.create({
   container: {
