@@ -1,6 +1,6 @@
 {
   "name": "@fcxlabs/colors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Colors package for FCx Labs",
   "main": "lib/index.js",
   "types": "lib",
