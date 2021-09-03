@@ -12,6 +12,7 @@ export const light = {
 };
 
 export const dark = {
+  dark5: "#be0f2c",
   dark15: "#AA0E27",
   dark25: "#960C23",
   dark35: "#820A1E",
