@@ -3,13 +3,18 @@
   "version": "1.0.2",
   "description": "Colors package for FCx Labs",
   "main": "lib/index.js",
-  "types": "lib",
+  "types": "lib/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -project ."
+    "test": "jest --config jestconfig.json",
+    "build": "tsc -project .",
+    "postversion": "git push && git push --tags"
   },
   "prepublish": "npm run build",
   "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.1.0",
+    "ts-jest": "^27.0.5",
     "typescript": "^4.4.2"
   },
   "keywords": [
@@ -27,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/fcxlabs/fcx-colors/issues"
   },
-  "homepage": "https://github.com/fcxlabs/fcx-colors#readme"
+  "homepage": "https://github.com/fcxlabs/fcx-colors#readme",
+  "files": [
+    "lib/**/*"
+  ]
 }
