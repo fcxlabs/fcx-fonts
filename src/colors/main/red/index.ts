@@ -1,7 +1,7 @@
-import { light, dark } from "./shades";
+import { light, dark } from './shades';
 
 export const red = {
-  primary: "#C8102E",
+  primary: '#C8102E',
   shades: {
     ...light,
     ...dark,
