@@ -1,18 +1,31 @@
 {
-  "name": "fcxlabs-colors",
-  "version": "1.0.0",
-  "description": "colors",
+  "name": "@fcxlabs/colors",
+  "version": "1.0.2",
+  "description": "Colors package for FCx Labs",
   "main": "lib/index.js",
   "types": "lib",
   "license": "MIT",
   "scripts": {
     "build": "tsc -project ."
   },
+  "prepublish": "npm run build",
   "devDependencies": {
     "typescript": "^4.4.2"
   },
   "keywords": [
     "colors",
     "ferreira costa"
-  ]
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcxlabs/fcx-colors.git"
+  },
+  "author": "fernando.lopes",
+  "bugs": {
+    "url": "https://github.com/fcxlabs/fcx-colors/issues"
+  },
+  "homepage": "https://github.com/fcxlabs/fcx-colors#readme"
 }
