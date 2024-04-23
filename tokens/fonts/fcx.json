@@ -239,168 +239,6 @@
       }
     }
   },
-  "semantic/mobile": {
-    "body": {
-      "font-family": {
-        "value": "{fontFamily.inter}",
-        "type": "text",
-        "parent": "semantic/mobile",
-        "description": ""
-      },
-      "font-size": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/mobile",
-        "description": ""
-      },
-      "line-height": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/mobile",
-        "description": ""
-      },
-      "font-weight": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/mobile",
-        "description": ""
-      }
-    },
-    "title": {
-      "font-family": {
-        "value": "{fontFamily.inter}",
-        "type": "text",
-        "parent": "semantic/mobile",
-        "description": ""
-      },
-      "font-size": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/mobile",
-        "description": ""
-      },
-      "line-height": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/mobile",
-        "description": ""
-      },
-      "font-weight": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/mobile",
-        "description": ""
-      }
-    }
-  },
-  "semantic/desktop": {
-    "body": {
-      "font-family": {
-        "value": "{fontFamily.inter}",
-        "type": "text",
-        "parent": "semantic/desktop",
-        "description": ""
-      },
-      "font-size": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/desktop",
-        "description": ""
-      },
-      "line-height": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/desktop",
-        "description": ""
-      },
-      "font-weight": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/desktop",
-        "description": ""
-      }
-    },
-    "title": {
-      "font-family": {
-        "value": "{fontFamily.inter}",
-        "type": "text",
-        "parent": "semantic/desktop",
-        "description": ""
-      },
-      "font-size": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/desktop",
-        "description": ""
-      },
-      "line-height": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/desktop",
-        "description": ""
-      },
-      "font-weight": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/desktop",
-        "description": ""
-      }
-    }
-  },
-  "semantic/bigdevices": {
-    "body": {
-      "font-family": {
-        "value": "{fontFamily.inter}",
-        "type": "text",
-        "parent": "semantic/bigdevices",
-        "description": ""
-      },
-      "font-size": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/bigdevices",
-        "description": ""
-      },
-      "line-height": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/bigdevices",
-        "description": ""
-      },
-      "font-weight": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/bigdevices",
-        "description": ""
-      }
-    },
-    "title": {
-      "font-family": {
-        "value": "{fontFamily.inter}",
-        "type": "text",
-        "parent": "semantic/bigdevices",
-        "description": ""
-      },
-      "font-size": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/bigdevices",
-        "description": ""
-      },
-      "line-height": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/bigdevices",
-        "description": ""
-      },
-      "font-weight": {
-        "value": "[object Object]",
-        "type": "number",
-        "parent": "semantic/bigdevices",
-        "description": ""
-      }
-    }
-  },
   "elements/tokens": {
     "button": {
       "fontFamily": {
@@ -416,22 +254,19 @@
         "description": ""
       },
       "fontSize": {
-        "value": "[object Object]",
+        "value": "{fontSize.16}",
         "type": "number",
-        "parent": "elements/tokens",
-        "description": ""
+        "parent": "elements/tokens"
       },
       "fontWeight": {
-        "value": "[object Object]",
+        "value": "{fontWeight.700}",
         "type": "number",
-        "parent": "elements/tokens",
-        "description": ""
+        "parent": "elements/tokens"
       },
       "lineHeight": {
-        "value": "[object Object]",
+        "value": "{lineHeight.20}",
         "type": "number",
-        "parent": "elements/tokens",
-        "description": ""
+        "parent": "elements/tokens"
       }
     }
   },
@@ -439,9 +274,6 @@
   "$metadata": {
     "tokenSetOrder": [
       "primitive/tokens",
-      "semantic/mobile",
-      "semantic/desktop",
-      "semantic/bigdevices",
       "elements/tokens"
     ]
   }
