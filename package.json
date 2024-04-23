@@ -1,7 +1,7 @@
 {
-  "name": "@fcxlabs/colors",
+  "name": "@fcxlabs/fonts",
   "version": "1.1.8",
-  "description": "Colors package for FCx Labs",
+  "description": "Fonts package for FCx Labs",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "preversion": "npm run lint",
     "version": "npm run format",
     "postversion": "git push && git push --tags",
-    "postinstall": "node generate-scss.js"
+    "postinstall": ""
   },
   "prepublish": "npm run build",
   "devDependencies": {
@@ -28,7 +28,7 @@
     "typescript": "^4.4.2"
   },
   "keywords": [
-    "colors",
+    "fonts",
     "ferreira costa"
   ],
   "directories": {
@@ -36,13 +36,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fcxlabs/fcx-colors.git"
+    "url": "git+https://github.com/fcxlabs/fcx-fonts.git"
   },
-  "author": "fernando.lopes",
+  "author": "jemerson.barros",
   "bugs": {
-    "url": "https://github.com/fcxlabs/fcx-colors/issues"
+    "url": "https://github.com/fcxlabs/fcx-fonts/issues"
   },
-  "homepage": "https://github.com/fcxlabs/fcx-colors#readme",
+  "homepage": "https://github.com/fcxlabs/fcx-fonts#readme",
   "files": [
     "lib/**/*"
   ]

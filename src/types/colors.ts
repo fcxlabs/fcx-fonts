@@ -1,4 +1,5 @@
-export interface Color {
+
+export interface fonts {
   primary: string;
   shades: {
     dark5: string;

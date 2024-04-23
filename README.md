@@ -4,59 +4,32 @@ Plataforma de cores para uso em projetos de interface do FCx Labs.
 
 ## Installation
 
-`yarn add @fcxlabs/colors`
+`yarn add @fcxlabs/fonts`
 
 or
 
-`npm i @fcxlabs/colors`
+`npm i @fcxlabs/fonts`
 
 ## Usage
 
-### stylesheet:
+### stylesheet
 
 ```js
-import { red } from "@fcxlabs/colors";
+import { line-height } from "@fcxlabs/fonts";
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: red.shades.light35,
+    body: semantic.body.lineheight,
   },
 });
 ```
 
-## Colors reference
+## Tokens reference
 
-### Main
+### _primitive (não usar diretamente)
 
-- red
-- green
-- pear
-- gray
-
-### Shades
-
-#### light
-
-- light5
-- light15
-- light25
-- light35
-- light45
-- light55
-- light65
-- light75
-- light85
-- light95
-
-#### dark
-
-- dark5
-- dark15
-- dark25
-- dark35
-- dark45
-- dark55
-- dark65
-- dark75
-- dark85
-- dark95
+- fontsize
+- fontfamily
+- fontsize
+- fontweight
+- lineheight
