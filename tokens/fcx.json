@@ -1,5 +1,5 @@
 {
-  "_primitive/tokens": {
+  "primitive/tokens": {
     "fontFamily": {
       "inter": {
         "value": "Inter",
@@ -471,7 +471,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "_primitive/tokens",
+      "primitive/tokens",
       "semantic/mobile",
       "semantic/desktop",
       "semantic/bigdevices",
