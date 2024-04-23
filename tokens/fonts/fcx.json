@@ -255,22 +255,19 @@
           "description": ""
         },
         "lineHeight": {
-          "value": "[object Object]",
+          "value": "{primitive.lineHeight.20}",
           "type": "number",
-          "parent": "primitive/tokens",
-          "description": ""
+          "parent": "primitive/tokens"
         },
         "fontSize": {
-          "value": "[object Object]",
+          "value": "{primitive.fontSize.16}",
           "type": "number",
-          "parent": "primitive/tokens",
-          "description": ""
+          "parent": "primitive/tokens"
         },
         "fontWeight": {
-          "value": "[object Object]",
+          "value": "{primitive.fontWeight.700}",
           "type": "number",
-          "parent": "primitive/tokens",
-          "description": ""
+          "parent": "primitive/tokens"
         }
       }
     }
