@@ -1,0 +1,448 @@
+{
+  "_primitive/tokens": {
+    "fontFamily": {
+      "inter": {
+        "value": "Inter",
+        "type": "text",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "barlow": {
+        "value": "Barlow",
+        "type": "text",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "chivo": {
+        "value": "Chivo",
+        "type": "text",
+        "parent": "_primitive/tokens",
+        "description": ""
+      }
+    },
+    "fontStyle": {
+      "regular": {
+        "value": "Regular",
+        "type": "text",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "italic": {
+        "value": "Italic",
+        "type": "text",
+        "parent": "_primitive/tokens",
+        "description": ""
+      }
+    },
+    "lineHeight": {
+      "16": {
+        "value": "16px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "20": {
+        "value": "20px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "24": {
+        "value": "24px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "28": {
+        "value": "28px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "32": {
+        "value": "32px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "40": {
+        "value": "40px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "44": {
+        "value": "44px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "48": {
+        "value": "48px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "56": {
+        "value": "56px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "64": {
+        "value": "64px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "72": {
+        "value": "72px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      }
+    },
+    "fontSize": {
+      "10": {
+        "value": "10px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "12": {
+        "value": "12px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "14": {
+        "value": "14px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "16": {
+        "value": "16px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "18": {
+        "value": "18px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "20": {
+        "value": "20px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "24": {
+        "value": "24px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "28": {
+        "value": "28px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "32": {
+        "value": "32px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "36": {
+        "value": "36px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "42": {
+        "value": "42px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "48": {
+        "value": "48px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      },
+      "54": {
+        "value": "54px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": ""
+      }
+    },
+    "fontWeight": {
+      "100": {
+        "value": "100px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": "Thin"
+      },
+      "200": {
+        "value": "200px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": "Extralight"
+      },
+      "300": {
+        "value": "300px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": "Light"
+      },
+      "400": {
+        "value": "400px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": "Regular"
+      },
+      "500": {
+        "value": "500px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": "Medium"
+      },
+      "600": {
+        "value": "600px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": "Semi-bold"
+      },
+      "700": {
+        "value": "700px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": "Bold"
+      },
+      "800": {
+        "value": "800px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": "Extra-bold"
+      },
+      "900": {
+        "value": "900px",
+        "type": "dimension",
+        "parent": "_primitive/tokens",
+        "description": "Black"
+      }
+    }
+  },
+  "semantic/mobile": {
+    "body": {
+      "font-family": {
+        "value": "{fontFamily.inter}",
+        "type": "text",
+        "parent": "semantic/mobile",
+        "description": ""
+      },
+      "font-size": {
+        "value": "{fontSize.12}",
+        "type": "dimension",
+        "parent": "semantic/mobile",
+        "description": ""
+      },
+      "line-height": {
+        "value": "{lineHeight.16}",
+        "type": "dimension",
+        "parent": "semantic/mobile",
+        "description": ""
+      },
+      "font-weight": {
+        "value": "{fontWeight.400}",
+        "type": "dimension",
+        "parent": "semantic/mobile",
+        "description": ""
+      }
+    },
+    "title": {
+      "font-family": {
+        "value": "{fontFamily.inter}",
+        "type": "text",
+        "parent": "semantic/mobile",
+        "description": ""
+      },
+      "font-size": {
+        "value": "{fontSize.14}",
+        "type": "dimension",
+        "parent": "semantic/mobile",
+        "description": ""
+      },
+      "line-height": {
+        "value": "{lineHeight.20}",
+        "type": "dimension",
+        "parent": "semantic/mobile",
+        "description": ""
+      },
+      "font-weight": {
+        "value": "{fontWeight.600}",
+        "type": "dimension",
+        "parent": "semantic/mobile",
+        "description": ""
+      }
+    }
+  },
+  "semantic/desktop": {
+    "body": {
+      "font-family": {
+        "value": "{fontFamily.inter}",
+        "type": "text",
+        "parent": "semantic/desktop",
+        "description": ""
+      },
+      "font-size": {
+        "value": "{fontSize.14}",
+        "type": "dimension",
+        "parent": "semantic/desktop",
+        "description": ""
+      },
+      "line-height": {
+        "value": "{lineHeight.20}",
+        "type": "dimension",
+        "parent": "semantic/desktop",
+        "description": ""
+      },
+      "font-weight": {
+        "value": "{fontWeight.400}",
+        "type": "dimension",
+        "parent": "semantic/desktop",
+        "description": ""
+      }
+    },
+    "title": {
+      "font-family": {
+        "value": "{fontFamily.inter}",
+        "type": "text",
+        "parent": "semantic/desktop",
+        "description": ""
+      },
+      "font-size": {
+        "value": "{fontSize.16}",
+        "type": "dimension",
+        "parent": "semantic/desktop",
+        "description": ""
+      },
+      "line-height": {
+        "value": "{lineHeight.20}",
+        "type": "dimension",
+        "parent": "semantic/desktop",
+        "description": ""
+      },
+      "font-weight": {
+        "value": "{fontWeight.600}",
+        "type": "dimension",
+        "parent": "semantic/desktop",
+        "description": ""
+      }
+    }
+  },
+  "semantic/bigdevices": {
+    "body": {
+      "font-family": {
+        "value": "{fontFamily.inter}",
+        "type": "text",
+        "parent": "semantic/bigdevices",
+        "description": ""
+      },
+      "font-size": {
+        "value": "{fontSize.16}",
+        "type": "dimension",
+        "parent": "semantic/bigdevices",
+        "description": ""
+      },
+      "line-height": {
+        "value": "{lineHeight.20}",
+        "type": "dimension",
+        "parent": "semantic/bigdevices",
+        "description": ""
+      },
+      "font-weight": {
+        "value": "{fontWeight.400}",
+        "type": "dimension",
+        "parent": "semantic/bigdevices",
+        "description": ""
+      }
+    },
+    "title": {
+      "font-family": {
+        "value": "{fontFamily.inter}",
+        "type": "text",
+        "parent": "semantic/bigdevices",
+        "description": ""
+      },
+      "font-size": {
+        "value": "{fontSize.24}",
+        "type": "dimension",
+        "parent": "semantic/bigdevices",
+        "description": ""
+      },
+      "line-height": {
+        "value": "{lineHeight.32}",
+        "type": "dimension",
+        "parent": "semantic/bigdevices",
+        "description": ""
+      },
+      "font-weight": {
+        "value": "{fontWeight.600}",
+        "type": "dimension",
+        "parent": "semantic/bigdevices",
+        "description": ""
+      }
+    }
+  },
+  "elements/tokens": {
+    "button": {
+      "fontFamily": {
+        "value": "{fontFamily.inter}",
+        "type": "text",
+        "parent": "elements/tokens",
+        "description": ""
+      },
+      "fontStyle": {
+        "value": "{fontStyle.regular}",
+        "type": "text",
+        "parent": "elements/tokens",
+        "description": ""
+      },
+      "fontSize": {
+        "value": "{fontSize.16}",
+        "type": "dimension",
+        "parent": "elements/tokens",
+        "description": ""
+      },
+      "fontWeight": {
+        "value": "{fontWeight.700}",
+        "type": "dimension",
+        "parent": "elements/tokens",
+        "description": ""
+      },
+      "lineHeight": {
+        "value": "{lineHeight.20}",
+        "type": "dimension",
+        "parent": "elements/tokens",
+        "description": ""
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "_primitive/tokens",
+      "semantic/mobile",
+      "semantic/desktop",
+      "semantic/bigdevices",
+      "elements/tokens"
+    ]
+  }
+}
