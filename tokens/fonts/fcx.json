@@ -1,23 +1,23 @@
 {
-  "primitive/tokens": {
+  "primitive/Value": {
     "primitive": {
       "fontFamily": {
         "inter": {
           "value": "Inter",
           "type": "text",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "barlow": {
           "value": "Barlow",
           "type": "text",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "chivo": {
           "value": "Chivo",
           "type": "text",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         }
       },
@@ -25,13 +25,13 @@
         "regular": {
           "value": "Regular",
           "type": "text",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "italic": {
           "value": "Italic",
           "type": "text",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         }
       },
@@ -39,67 +39,67 @@
         "16": {
           "value": "16",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "20": {
           "value": "20",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "24": {
           "value": "24",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "28": {
           "value": "28",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "32": {
           "value": "32",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "40": {
           "value": "40",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "44": {
           "value": "44",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "48": {
           "value": "48",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "56": {
           "value": "56",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "64": {
           "value": "64",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "72": {
           "value": "72",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         }
       },
@@ -107,79 +107,79 @@
         "10": {
           "value": "10",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "12": {
           "value": "12",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "14": {
           "value": "14",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "16": {
           "value": "16",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "18": {
           "value": "18",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "20": {
           "value": "20",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "24": {
           "value": "24",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "28": {
           "value": "28",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "32": {
           "value": "32",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "36": {
           "value": "36",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "42": {
           "value": "42",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "48": {
           "value": "48",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "54": {
           "value": "54",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         }
       },
@@ -187,55 +187,55 @@
         "100": {
           "value": "100",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": "Thin"
         },
         "200": {
           "value": "200",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": "Extralight"
         },
         "300": {
           "value": "300",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": "Light"
         },
         "400": {
           "value": "400",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": "Regular"
         },
         "500": {
           "value": "500",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": "Medium"
         },
         "600": {
           "value": "600",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": "Semi-bold"
         },
         "700": {
           "value": "700",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": "Bold"
         },
         "800": {
           "value": "800",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": "Extra-bold"
         },
         "900": {
           "value": "900",
           "type": "number",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": "Black"
         }
       }
@@ -245,29 +245,29 @@
         "fontFamily": {
           "value": "{primitive.fontFamily.inter}",
           "type": "text",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "fontStyle": {
           "value": "{primitive.fontStyle.regular}",
           "type": "text",
-          "parent": "primitive/tokens",
+          "parent": "primitive/Value",
           "description": ""
         },
         "lineHeight": {
           "value": "{primitive.lineHeight.20}",
           "type": "number",
-          "parent": "primitive/tokens"
+          "parent": "primitive/Value"
         },
         "fontSize": {
           "value": "{primitive.fontSize.16}",
           "type": "number",
-          "parent": "primitive/tokens"
+          "parent": "primitive/Value"
         },
         "fontWeight": {
           "value": "{primitive.fontWeight.700}",
           "type": "number",
-          "parent": "primitive/tokens"
+          "parent": "primitive/Value"
         }
       }
     }
@@ -275,7 +275,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "primitive/tokens"
+      "primitive/Value"
     ]
   }
 }
