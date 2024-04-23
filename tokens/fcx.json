@@ -36,206 +36,239 @@
     },
     "lineHeight": {
       "16": {
-        "value": "16px",
+        "value": "1rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "16px"
       },
       "20": {
-        "value": "20px",
+        "value": "1.25rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "20px"
       },
       "24": {
-        "value": "24px",
+        "value": "1.5rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "24px"
       },
       "28": {
-        "value": "28px",
+        "value": "1.75rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "28px"
       },
       "32": {
-        "value": "32px",
+        "value": "2rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "32px"
       },
       "40": {
-        "value": "40px",
+        "value": "2.5rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "40px"
       },
       "44": {
-        "value": "44px",
+        "value": "2.75rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "44px"
       },
       "48": {
-        "value": "48px",
+        "value": "3rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "48px"
       },
       "56": {
-        "value": "56px",
+        "value": "3.5rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "56px"
       },
       "64": {
-        "value": "64px",
+        "value": "4rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "64px"
       },
       "72": {
-        "value": "72px",
+        "value": "4.5rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "72px"
       }
     },
     "fontSize": {
       "10": {
-        "value": "10px",
+        "value": "0.625rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "10px"
       },
       "12": {
-        "value": "12px",
+        "value": "0.75rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "12px"
       },
       "14": {
-        "value": "14px",
+        "value": "0.875rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "14px"
       },
       "16": {
-        "value": "16px",
+        "value": "1rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "16px"
       },
       "18": {
-        "value": "18px",
+        "value": "1.125rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "18px"
       },
       "20": {
-        "value": "20px",
+        "value": "1.25rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "20px"
       },
       "24": {
-        "value": "24px",
+        "value": "1.5rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "24px"
       },
       "28": {
-        "value": "28px",
+        "value": "1.75rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "28px"
       },
       "32": {
-        "value": "32px",
+        "value": "2rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "32px"
       },
       "36": {
-        "value": "36px",
+        "value": "2.25rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "36px"
       },
       "42": {
-        "value": "42px",
+        "value": "2.625rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "42px"
       },
       "48": {
-        "value": "48px",
+        "value": "3rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "48px"
       },
       "54": {
-        "value": "54px",
+        "value": "3.375rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": ""
+        "description": "",
+        "oldValue": "54px"
       }
     },
     "fontWeight": {
       "100": {
-        "value": "100px",
+        "value": "6.25rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": "Thin"
+        "description": "Thin",
+        "oldValue": "100px"
       },
       "200": {
-        "value": "200px",
+        "value": "12.5rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": "Extralight"
+        "description": "Extralight",
+        "oldValue": "200px"
       },
       "300": {
-        "value": "300px",
+        "value": "18.75rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": "Light"
+        "description": "Light",
+        "oldValue": "300px"
       },
       "400": {
-        "value": "400px",
+        "value": "25rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": "Regular"
+        "description": "Regular",
+        "oldValue": "400px"
       },
       "500": {
-        "value": "500px",
+        "value": "31.25rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": "Medium"
+        "description": "Medium",
+        "oldValue": "500px"
       },
       "600": {
-        "value": "600px",
+        "value": "37.5rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": "Semi-bold"
+        "description": "Semi-bold",
+        "oldValue": "600px"
       },
       "700": {
-        "value": "700px",
+        "value": "43.75rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": "Bold"
+        "description": "Bold",
+        "oldValue": "700px"
       },
       "800": {
-        "value": "800px",
+        "value": "50rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": "Extra-bold"
+        "description": "Extra-bold",
+        "oldValue": "800px"
       },
       "900": {
-        "value": "900px",
+        "value": "56.25rem",
         "type": "dimension",
         "parent": "_primitive/tokens",
-        "description": "Black"
+        "description": "Black",
+        "oldValue": "900px"
       }
     }
   },
