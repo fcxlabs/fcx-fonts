@@ -1,4 +1,50 @@
 {
+  "tokens/value": {
+    "body": {
+      "fontFamily": {
+        "value": "{fontFamily.inter}",
+        "type": "text",
+        "parent": "tokens/value",
+        "description": ""
+      },
+      "fontStyle": {
+        "value": "{fontStyle.regular}",
+        "type": "text",
+        "parent": "tokens/value",
+        "description": ""
+      },
+      "lineHeight": {
+        "value": "{lineHeight.20}",
+        "type": "dimension",
+        "parent": "tokens/value",
+        "description": ""
+      },
+      "fontSize": {
+        "value": "{fontSize.16}",
+        "type": "dimension",
+        "parent": "tokens/value",
+        "description": ""
+      },
+      "fontWeight": {
+        "value": "{fontWeight.400}",
+        "type": "dimension",
+        "parent": "tokens/value",
+        "description": ""
+      },
+      "letterSpacing": {
+        "value": "{letterSpacing.normal}",
+        "type": "dimension",
+        "parent": "tokens/value",
+        "description": ""
+      },
+      "paragraphSpacing": {
+        "value": "{paragraphSpacing.none}",
+        "type": "dimension",
+        "parent": "tokens/value",
+        "description": ""
+      }
+    }
+  },
   "_Primitive/Mode 1": {
     "fontFamily": {
       "inter": {
@@ -39,92 +85,79 @@
         "value": "10px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "10"
+        "description": ""
       },
       "12": {
         "value": "12px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "12"
+        "description": ""
       },
       "14": {
         "value": "14px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "14"
+        "description": ""
       },
       "16": {
         "value": "16px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "16"
+        "description": ""
       },
       "18": {
         "value": "18px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "18"
+        "description": ""
       },
       "20": {
         "value": "20px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "20"
+        "description": ""
       },
       "24": {
         "value": "24px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "24"
+        "description": ""
       },
       "28": {
         "value": "28px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "28"
+        "description": ""
       },
       "32": {
         "value": "32px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "32"
+        "description": ""
       },
       "36": {
         "value": "36px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "36"
+        "description": ""
       },
       "42": {
         "value": "42px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "42"
+        "description": ""
       },
       "48": {
         "value": "48px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "48"
+        "description": ""
       },
       "54": {
         "value": "54px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "54"
+        "description": ""
       }
     },
     "lineHeight": {
@@ -132,78 +165,67 @@
         "value": "16px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "16"
+        "description": ""
       },
       "20": {
         "value": "20px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "20"
+        "description": ""
       },
       "24": {
         "value": "24px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "24"
+        "description": ""
       },
       "28": {
         "value": "28px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "28"
+        "description": ""
       },
       "32": {
         "value": "32px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "32"
+        "description": ""
       },
       "40": {
         "value": "40px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "40"
+        "description": ""
       },
       "44": {
         "value": "44px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "44"
+        "description": ""
       },
       "48": {
         "value": "48px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "48"
+        "description": ""
       },
       "56": {
         "value": "56px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "56"
+        "description": ""
       },
       "64": {
         "value": "64px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "64"
+        "description": ""
       },
       "72": {
         "value": "72px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "72"
+        "description": ""
       }
     },
     "letterSpacing": {
@@ -211,22 +233,19 @@
         "value": "0px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "0"
+        "description": ""
       },
       "-0,5": {
         "value": "-0.5px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "-0.5"
+        "description": ""
       },
       "0,5": {
         "value": "0.5px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "0.5"
+        "description": ""
       }
     },
     "paragraphSpacing": {
@@ -234,50 +253,43 @@
         "value": "0px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "0"
+        "description": ""
       },
       "4": {
         "value": "4px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "4"
+        "description": ""
       },
       "8": {
         "value": "8px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "8"
+        "description": ""
       },
       "12": {
         "value": "12px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "12"
+        "description": ""
       },
       "16": {
         "value": "16px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "16"
+        "description": ""
       },
       "20": {
         "value": "20px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "20"
+        "description": ""
       },
       "24": {
         "value": "24px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "24"
+        "description": ""
       }
     },
     "fontWeight": {
@@ -285,64 +297,55 @@
         "value": "100px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "100"
+        "description": ""
       },
       "200": {
         "value": "200px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "200"
+        "description": ""
       },
       "300": {
         "value": "300px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "300"
+        "description": ""
       },
       "400": {
         "value": "400px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "400"
+        "description": ""
       },
       "500": {
         "value": "500px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "500"
+        "description": ""
       },
       "600": {
         "value": "600px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "600"
+        "description": ""
       },
       "700": {
         "value": "700px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "700"
+        "description": ""
       },
       "800": {
         "value": "800px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "800"
+        "description": ""
       },
       "900": {
         "value": "900px",
         "type": "dimension",
         "parent": "_Primitive/Mode 1",
-        "description": "",
-        "oldValue": "900"
+        "description": ""
       }
     }
   },
@@ -350,7 +353,7 @@
     "fontSize": {
       "x-small": {
         "value": "{fontSize.12}",
-        "type": "number",
+        "type": "dimension",
         "parent": "Semantic/Mode 1",
         "description": "Tamanho de fonte pequeno, geralmente usado em campos de texto, menus, rótulos e blocos de texto pequenos."
       },
@@ -358,78 +361,67 @@
         "value": "{fontSize.16}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "{fontSize.16}"
+        "description": ""
       },
       "small": {
         "value": "{fontSize.14}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "{fontSize.14}"
+        "description": ""
       },
       "tiny": {
         "value": "{fontSize.10}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "{fontSize.10}"
+        "description": ""
       },
       "large": {
         "value": "{fontSize.18}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "x-large": {
         "value": "{fontSize.20}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "2x-large": {
         "value": "{fontSize.24}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "3x-large": {
         "value": "{fontSize.28}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "4x-large": {
         "value": "{fontSize.36}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "5x-large": {
         "value": "{fontSize.42}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "6x-large": {
         "value": "{fontSize.48}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "7x-large": {
         "value": "{fontSize.54}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       }
     },
     "fontWeight": {
@@ -437,64 +429,55 @@
         "value": "{fontWeight.500}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "thin": {
         "value": "{fontWeight.100}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "extra-light": {
         "value": "{fontWeight.200}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "light": {
         "value": "{fontWeight.400}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "regular": {
         "value": "{fontWeight.500}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "semi-bold": {
         "value": "{fontWeight.600}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "bold": {
         "value": "{fontWeight.700}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "extra-bold": {
         "value": "{fontWeight.800}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "black": {
         "value": "{fontWeight.900}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       }
     },
     "lineHeight": {
@@ -502,85 +485,73 @@
         "value": "{lineHeight.16}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "x-small": {
         "value": "{lineHeight.16}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "small": {
         "value": "{lineHeight.20}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "medium": {
         "value": "{lineHeight.20}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "large": {
         "value": "{lineHeight.24}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "x-large": {
         "value": "{lineHeight.28}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "2x-large": {
         "value": "{lineHeight.32}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "3x-large": {
         "value": "{lineHeight.40}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "4x-large": {
         "value": "{lineHeight.48}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "5x-large": {
         "value": "{lineHeight.56}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "6x-large": {
         "value": "{lineHeight.64}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "7x-large": {
         "value": "{lineHeight.72}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       }
     },
     "letterSpacing": {
@@ -588,22 +559,19 @@
         "value": "{letterSpacing.0}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "loose": {
         "value": "{letterSpacing.0,5}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "dense": {
         "value": "{letterSpacing.-0,5}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       }
     },
     "paragraphSpacing": {
@@ -611,110 +579,52 @@
         "value": "{paragraphSpacing.0}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "tiny": {
         "value": "{paragraphSpacing.4}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "x-small": {
         "value": "{paragraphSpacing.8}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "small": {
         "value": "{paragraphSpacing.12}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "medium": {
         "value": "{paragraphSpacing.16}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "large": {
         "value": "{paragraphSpacing.20}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
+        "description": ""
       },
       "x-large": {
         "value": "{paragraphSpacing.24}",
         "type": "dimension",
         "parent": "Semantic/Mode 1",
-        "description": "",
-        "oldValue": "[object Object]"
-      }
-    }
-  },
-  "tokens/Value": {
-    "body": {
-      "fontFamily": {
-        "value": "{fontFamily.inter}",
-        "type": "text",
-        "parent": "tokens/Value",
         "description": ""
-      },
-      "fontStyle": {
-        "value": "{fontStyle.regular}",
-        "type": "text",
-        "parent": "tokens/Value",
-        "description": ""
-      },
-      "lineHeight": {
-        "value": "{lineHeight.20}",
-        "type": "dimension",
-        "parent": "tokens/Value",
-        "description": "",
-        "oldValue": "[object Object]"
-      },
-      "fontSize": {
-        "value": "{fontSize.16}",
-        "type": "dimension",
-        "parent": "tokens/Value",
-        "description": "",
-        "oldValue": "{fontSize.medium}"
-      },
-      "fontWeight": {
-        "value": "{fontWeight.400}",
-        "type": "dimension",
-        "parent": "tokens/Value",
-        "description": "",
-        "oldValue": "[object Object]"
-      },
-      "letterSpacing": {
-        "value": "{letterSpacing.normal}",
-        "type": "dimension",
-        "parent": "tokens/Value",
-        "description": "",
-        "oldValue": "[object Object]"
-      },
-      "paragraphSpacing": {
-        "value": "{paragraphSpacing.none}",
-        "type": "dimension",
-        "parent": "tokens/Value",
-        "description": "",
-        "oldValue": "[object Object]"
       }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
+      "tokens/value",
       "_Primitive/Mode 1",
-      "Semantic/Mode 1",
-      "tokens/Value"
+      "Semantic/Mode 1"
     ]
   }
 }
