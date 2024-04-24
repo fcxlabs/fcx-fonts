@@ -1,2 +1,2 @@
 
-export { fcx } from './types/colors';
+export { fcx } from '../src/types/fcx';

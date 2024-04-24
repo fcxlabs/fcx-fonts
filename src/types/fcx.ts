@@ -1,9 +1,12 @@
-import { semantic } from './test.json';
+import { tokens } from '../../tokens/fcx.json';
 
 export const fcx = {
-  fcx: semantic,
+  fcx: tokens,
   body: {
-    fontFamily: semantic.fontFamily.barlow,
-    fontStyle: semantic.,
+    fontFamily: tokens.body.fontFamily,
+    fontStyle: tokens.body.fontStyle,
+    lineHeight: tokens.body.lineHeight,
+    fontSize: tokens.body.fontSize,
+    fontWeight: tokens.body.fontWeight,
   },
 };
