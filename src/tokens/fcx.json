@@ -198,8 +198,6 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": [
-      "tokens"
-    ]
+    "tokenSetOrder": ["tokens"]
   }
 }

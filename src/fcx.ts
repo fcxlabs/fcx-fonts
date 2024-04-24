@@ -1,18 +1,15 @@
+import { tokens } from './tokens/fcx.json';
 
-import { tokens } from '../tokens/fcx.json';
-
-interface FcxProps{
+interface FcxProps {
   body: {
-  fontFamily: string
-  fontStyle: string
-  lineHeight: string; 
-  fontSize: string;
-  fontWeight: string;
-  }
+    fontFamily: string;
+    fontStyle: string;
+    lineHeight: string;
+    fontSize: string;
+    fontWeight: string;
+  };
 }
-const Primitive = {tokens}
 export const fcx: FcxProps = {
-
   body: {
     fontFamily: tokens.body.fontFamily.value,
     fontStyle: tokens.body.fontStyle.value,
