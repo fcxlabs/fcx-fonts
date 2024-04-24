@@ -1,2 +1,4 @@
 
-export { fcx } from '../src/types/fcx';
+
+export { fcx } from './fcx';
+
