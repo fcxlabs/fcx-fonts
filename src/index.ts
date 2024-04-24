@@ -1,2 +1,2 @@
-export { elements, semantic } from './tokens';
 
+export { fcx } from './types/colors';

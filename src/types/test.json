@@ -1,0 +1,24 @@
+{
+    "semantic": {
+      "fontFamily": {
+        "inter": {
+          "value": "Inter",
+          "type": "text",
+          "parent": "semantic/tokens",
+          "descsription": ""
+        },
+        "barlow": {
+          "value": "Barlow",
+          "type": "text",
+          "parent": "semantic/tokens",
+          "description": ""
+        },
+        "chivo": {
+          "value": "Chivo",
+          "type": "text",
+          "parent": "semantic/tokens",
+          "description": ""
+        }
+      }
+    }
+}
