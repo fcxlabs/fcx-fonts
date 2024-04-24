@@ -1,203 +1,630 @@
 {
-  "tokens": {
-    "primitive": {
-      "fontFamily": {
-        "inter": {
-          "value": "Inter",
-          "type": "text"
-        },
-        "barlow": {
-          "value": "Barlow",
-          "type": "text"
-        },
-        "chivo": {
-          "value": "Chivo",
-          "type": "text"
-        }
+  "_Primitive": {
+    "font-family": {
+      "inter": {
+        "value": "Inter",
+        "type": "text",
+        "parent": "_Primitive/Mode 1",
+        "description": "Referência da família de fontes usada nos sistemas internos."
       },
-      "fontStyle": {
-        "regular": {
-          "value": "Regular",
-          "type": "text"
-        },
-        "italic": {
-          "value": "Italic",
-          "type": "text"
-        }
+      "chivo": {
+        "value": "Chivo",
+        "type": "text",
+        "parent": "_Primitive/Mode 1",
+        "description": "Referência da família de fontes usada no site Ecommerce."
       },
-      "lineHeight": {
-        "16": {
-          "value": "16",
-          "type": "number"
-        },
-        "20": {
-          "value": "20",
-          "type": "number"
-        },
-        "24": {
-          "value": "24",
-          "type": "number"
-        },
-        "28": {
-          "value": "28",
-          "type": "number"
-        },
-        "32": {
-          "value": "32",
-          "type": "number"
-        },
-        "40": {
-          "value": "40",
-          "type": "number"
-        },
-        "44": {
-          "value": "44",
-          "type": "number"
-        },
-        "48": {
-          "value": "48",
-          "type": "number"
-        },
-        "56": {
-          "value": "56",
-          "type": "number"
-        },
-        "64": {
-          "value": "64",
-          "type": "number"
-        },
-        "72": {
-          "value": "72",
-          "type": "number"
-        }
-      },
-      "fontSize": {
-        "10": {
-          "value": "10",
-          "type": "number"
-        },
-        "12": {
-          "value": "12",
-          "type": "number"
-        },
-        "14": {
-          "value": "14",
-          "type": "number"
-        },
-        "16": {
-          "value": "16",
-          "type": "number"
-        },
-        "18": {
-          "value": "18",
-          "type": "number"
-        },
-        "20": {
-          "value": "20",
-          "type": "number"
-        },
-        "24": {
-          "value": "24",
-          "type": "number"
-        },
-        "28": {
-          "value": "28",
-          "type": "number"
-        },
-        "32": {
-          "value": "32",
-          "type": "number"
-        },
-        "36": {
-          "value": "36",
-          "type": "number"
-        },
-        "42": {
-          "value": "42",
-          "type": "number"
-        },
-        "48": {
-          "value": "48",
-          "type": "number"
-        },
-        "54": {
-          "value": "54",
-          "type": "number"
-        }
-      },
-      "fontWeight": {
-        "100": {
-          "value": "100",
-          "type": "number",
-          "description": "Thin"
-        },
-        "200": {
-          "value": "200",
-          "type": "number",
-          "description": "Extralight"
-        },
-        "300": {
-          "value": "300",
-          "type": "number",
-          "description": "Light"
-        },
-        "400": {
-          "value": "400",
-          "type": "number",
-          "description": "Regular"
-        },
-        "500": {
-          "value": "500",
-          "type": "number",
-          "description": "Medium"
-        },
-        "600": {
-          "value": "600",
-          "type": "number",
-          "description": "Semi-bold"
-        },
-        "700": {
-          "value": "700",
-          "type": "number",
-          "description": "Bold"
-        },
-        "800": {
-          "value": "800",
-          "type": "number",
-          "description": "Extra-bold"
-        },
-        "900": {
-          "value": "900",
-          "type": "number",
-          "description": "Black"
-        }
+      "barlow": {
+        "value": "Barlow",
+        "type": "text",
+        "parent": "_Primitive/Mode 1",
+        "description": "Família de fontes oficial da marca Ferreira Costa."
       }
     },
+    "font-style": {
+      "regular": {
+        "value": "Regular",
+        "type": "text",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "italic": {
+        "value": "Italic",
+        "type": "text",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      }
+    },
+    "font-size": {
+      "10": {
+        "value": "10",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "12": {
+        "value": "12",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "14": {
+        "value": "14",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "16": {
+        "value": "16",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "18": {
+        "value": "18",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "20": {
+        "value": "20",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "24": {
+        "value": "24",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "28": {
+        "value": "28",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "32": {
+        "value": "32",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "36": {
+        "value": "36",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "42": {
+        "value": "42",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "48": {
+        "value": "48",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "54": {
+        "value": "54",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      }
+    },
+    "line-height": {
+      "16": {
+        "value": "16",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "20": {
+        "value": "20",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "24": {
+        "value": "24",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "28": {
+        "value": "28",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "32": {
+        "value": "32",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "40": {
+        "value": "40",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "44": {
+        "value": "44",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "48": {
+        "value": "48",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "56": {
+        "value": "56",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "64": {
+        "value": "64",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "72": {
+        "value": "72",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      }
+    },
+    "letter-spacing": {
+      "0": {
+        "value": "0",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "-0,5": {
+        "value": "-0.5",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "0,5": {
+        "value": "0.5",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      }
+    },
+    "paragraph-spacing": {
+      "0": {
+        "value": "0",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "4": {
+        "value": "4",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "8": {
+        "value": "8",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "12": {
+        "value": "12",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "16": {
+        "value": "16",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "20": {
+        "value": "20",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "24": {
+        "value": "24",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      }
+    },
+    "font-weight": {
+      "100": {
+        "value": "100",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "200": {
+        "value": "200",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "300": {
+        "value": "300",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "400": {
+        "value": "400",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "500": {
+        "value": "500",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "600": {
+        "value": "600",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "700": {
+        "value": "700",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "800": {
+        "value": "800",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      },
+      "900": {
+        "value": "900",
+        "type": "number",
+        "parent": "_Primitive/Mode 1",
+        "description": ""
+      }
+    }
+  },
+  "Semantic": {
+    "font-size": {
+      "x-small": {
+        "value": "{font-size.10}",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": "Tamanho de fonte pequeno, geralmente usado em campos de texto, menus, rótulos e blocos de texto pequenos."
+      },
+      "medium": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "small": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "tiny": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "2x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "3x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "4x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "5x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "6x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "7x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      }
+    },
+    "font-weight": {
+      "medium": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "thin": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "extra-light": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "light": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "regular": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "semi-bold": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "bold": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "extra-bold": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "black": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      }
+    },
+    "line-height": {
+      "tiny": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "x-small": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "small": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "medium": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "2x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "3x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "4x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "5x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "6x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "7x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      }
+    },
+    "letter-spacing": {
+      "normal": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "loose": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "dense": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      }
+    },
+    "paragraph-spacing": {
+      "none": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "tiny": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "x-small": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "small": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "medium": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      },
+      "x-large": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "Semantic/Mode 1",
+        "description": ""
+      }
+    }
+  },
+  "tokens": {
     "body": {
       "fontFamily": {
-        "value": "{primitive.fontFamily.inter}",
-        "type": "text"
+        "value": "{font-family.inter}",
+        "type": "text",
+        "parent": "tokens/Value",
+        "description": ""
       },
       "fontStyle": {
-        "value": "{primitive.fontStyle.regular}",
-        "type": "text"
+        "value": "{font-style.regular}",
+        "type": "text",
+        "parent": "tokens/Value",
+        "description": ""
       },
       "lineHeight": {
-        "value": "{primitive.lineHeight.20}",
-        "type": "number"
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "tokens/Value",
+        "description": ""
       },
       "fontSize": {
-        "value": "{primitive.fontSize.16}",
-        "type": "number"
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "tokens/Value",
+        "description": ""
       },
       "fontWeight": {
-        "value": "{primitive.fontWeight.400}",
-        "type": "number"
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "tokens/Value",
+        "description": ""
+      },
+      "letterSpacing": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "tokens/Value",
+        "description": ""
+      },
+      "paragraphSpacing": {
+        "value": "[object Object]",
+        "type": "number",
+        "parent": "tokens/Value",
+        "description": ""
       }
     }
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": ["tokens"]
+    "tokenSetOrder": [
+      "_Primitive",
+      "Semantic",
+      "tokens"
+    ]
   }
 }
