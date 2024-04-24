@@ -1,6 +1,6 @@
 {
-  "_Primitive": {
-    "font-family": {
+  "_Primitive/Mode 1": {
+    "fontFamily": {
       "inter": {
         "value": "Inter",
         "type": "text",
@@ -20,7 +20,7 @@
         "description": "Família de fontes oficial da marca Ferreira Costa."
       }
     },
-    "font-style": {
+    "fontStyle": {
       "regular": {
         "value": "Regular",
         "type": "text",
@@ -34,7 +34,7 @@
         "description": ""
       }
     },
-    "font-size": {
+    "fontSize": {
       "10": {
         "value": "10",
         "type": "number",
@@ -114,7 +114,7 @@
         "description": ""
       }
     },
-    "line-height": {
+    "lineHeight": {
       "16": {
         "value": "16",
         "type": "number",
@@ -182,7 +182,7 @@
         "description": ""
       }
     },
-    "letter-spacing": {
+    "letterSpacing": {
       "0": {
         "value": "0",
         "type": "number",
@@ -202,7 +202,7 @@
         "description": ""
       }
     },
-    "paragraph-spacing": {
+    "paragraphSpacing": {
       "0": {
         "value": "0",
         "type": "number",
@@ -246,7 +246,7 @@
         "description": ""
       }
     },
-    "font-weight": {
+    "fontWeight": {
       "100": {
         "value": "100",
         "type": "number",
@@ -303,31 +303,28 @@
       }
     }
   },
-  "Semantic": {
-    "font-size": {
+  "Semantic/Mode 1": {
+    "fontSize": {
       "x-small": {
-        "value": "{font-size.10}",
+        "value": "{fontSize.12}",
         "type": "number",
         "parent": "Semantic/Mode 1",
         "description": "Tamanho de fonte pequeno, geralmente usado em campos de texto, menus, rótulos e blocos de texto pequenos."
       },
       "medium": {
-        "value": "[object Object]",
+        "value": "{fontSize.16}",
         "type": "number",
-        "parent": "Semantic/Mode 1",
-        "description": ""
+        "parent": "Semantic/Mode 1"
       },
       "small": {
-        "value": "[object Object]",
+        "value": "{fontSize.14}",
         "type": "number",
-        "parent": "Semantic/Mode 1",
-        "description": ""
+        "parent": "Semantic/Mode 1"
       },
       "tiny": {
-        "value": "[object Object]",
+        "value": "{fontSize.10}",
         "type": "number",
-        "parent": "Semantic/Mode 1",
-        "description": ""
+        "parent": "Semantic/Mode 1"
       },
       "large": {
         "value": "[object Object]",
@@ -378,7 +375,7 @@
         "description": ""
       }
     },
-    "font-weight": {
+    "fontWeight": {
       "medium": {
         "value": "[object Object]",
         "type": "number",
@@ -434,7 +431,7 @@
         "description": ""
       }
     },
-    "line-height": {
+    "lineHeight": {
       "tiny": {
         "value": "[object Object]",
         "type": "number",
@@ -508,7 +505,7 @@
         "description": ""
       }
     },
-    "letter-spacing": {
+    "letterSpacing": {
       "normal": {
         "value": "[object Object]",
         "type": "number",
@@ -528,7 +525,7 @@
         "description": ""
       }
     },
-    "paragraph-spacing": {
+    "paragraphSpacing": {
       "none": {
         "value": "[object Object]",
         "type": "number",
@@ -573,16 +570,16 @@
       }
     }
   },
-  "tokens": {
+  "tokens/Value": {
     "body": {
       "fontFamily": {
-        "value": "{font-family.inter}",
+        "value": "{fontFamily.inter}",
         "type": "text",
         "parent": "tokens/Value",
         "description": ""
       },
       "fontStyle": {
-        "value": "{font-style.regular}",
+        "value": "{fontStyle.regular}",
         "type": "text",
         "parent": "tokens/Value",
         "description": ""
@@ -594,10 +591,9 @@
         "description": ""
       },
       "fontSize": {
-        "value": "[object Object]",
+        "value": "{fontSize.medium}",
         "type": "number",
-        "parent": "tokens/Value",
-        "description": ""
+        "parent": "tokens/Value"
       },
       "fontWeight": {
         "value": "[object Object]",
@@ -622,9 +618,9 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "_Primitive",
-      "Semantic",
-      "tokens"
+      "_Primitive/Mode 1",
+      "Semantic/Mode 1",
+      "tokens/Value"
     ]
   }
 }
