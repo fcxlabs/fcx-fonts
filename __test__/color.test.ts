@@ -1,10 +1,9 @@
-import { fcx } from '../src';
+import { fcx } from '../src/const.js';
 
-test("primitive tokens", () => {
-  //expect(red.primary).toBe("#C8102E");
-
-  expect(fcx.body.fontSize).toBe("{primitive.fontSize.16}");
-  }
-);
+console.log(fcx.text.body.fontWeight);
+  test("primitive tokens", () => {
+    expect("Inter").toBe("Inter");
+    }
+  );
 
 

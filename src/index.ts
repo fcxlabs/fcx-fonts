@@ -1,1 +1,1 @@
-export { fcx } from './fcx';
+export { fcx } from './const';
