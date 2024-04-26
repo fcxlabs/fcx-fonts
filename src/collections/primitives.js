@@ -19,9 +19,9 @@ const fs = require('fs');
     console.error('Erro ao ler o arquivo JSON:', error);
   }
 
-  const _dataone = collection.primitive;
+  const _data = collection.primitive;
 
-export const primitive = _dataone[key];
+export const primitive = _data;
 
 
 

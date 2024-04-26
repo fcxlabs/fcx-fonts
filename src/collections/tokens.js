@@ -20,16 +20,20 @@ const fs = require('fs');
   }
 
   const _dataone = collection.tokens;
-
+const _names = dataWithoutKeys['tokens/value']['body'];
+console.log(_names)
+const _body = collection.tokens
+const _arg1 = dataWithoutKeys['tokens/value'][key]
+const _arg2 = dataWithoutKeys['tokens'].replace(/.*\./, "").replace("{","").replace("}","")
 export const tokenconfig = { 
-  name: _dataone[key],
-  fontFamily: _dataone[key]['fontFamily']['value'],
-  fontStyle: _dataone[key]['fontStyle']['value'],
-  fontSize: _dataone[key]['fontSize']['value'],
-  lineHeight: _dataone[key]['lineHeight']['value'],
-  letterSpacing: _dataone[key]['letterSpacing']['value'],
-  paragraphSpacing: _dataone[key]['paragraphSpacing']['value'],
-  fontWeight: _dataone[key]['fontWeight']['value'],
+  fontFamily: collection.primitive[_arg1.replace(/\..*/, "").replace("{","").replace("}","")][_arg2]['value'], 
+  // fontStyle: _dataone[_names]['fontStyle']['value'],
+  // fontSize: _dataone[_names]['fontSize']['value'],
+  // lineHeight: _dataone[_names]['lineHeight']['value'],
+  // letterSpacing: _dataone[_names]['letterSpacing']['value'],
+  // paragraphSpacing: _dataone[_names]['paragraphSpacing']['value'],
+  // fontWeight: _dataone[_names]['fontWeight']['value'],
+  // test: collection.primitive[tokenconfig.name]
 
 };
 

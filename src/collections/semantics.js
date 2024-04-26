@@ -21,7 +21,7 @@ const fs = require('fs');
 
   const _dataone = collection.semantic;
 
-export const semantic = _dataone[key];
+export const semantic = _dataone;
 
 
 

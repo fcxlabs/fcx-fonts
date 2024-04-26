@@ -22,7 +22,7 @@ const fs = require('fs');
   const _data =  {
     primitive: js['_Primitive/Mode 1'],
     semantic: js['Semantic/Mode 1'],
-    tokens: js['tokens/value']
+    tokens: dataWithoutKeys['tokens/value']
   };
 
 

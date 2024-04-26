@@ -36,21 +36,12 @@ import { collection } from './collections/collection';
 
 // const regd = replace(/\..*/, "").replace("{","").replace("}","");
 // const rega = replace(/.*\./, "").replace("{","").replace("}","");
-const _variables = collection.tokens;
-const _dataone = collection.primitive;
 
 export const fcx = {
-  text: {
-    body: {
-      fontFamily: _dataone.fontFamily.barlow.value,
-      fontStyle: _dataone['fontStyle']['value'],
-      fontSize: _dataone['fontSize']['value'],
-      lineHeight: _dataone['lineHeight']['value'],
-      letterSpacing: _dataone['letterSpacing']['value'],
-      paragraphSpacing: _dataone['paragraphSpacing']['value'],
-      fontWeight: _dataone.fontWeight[100].value,
-    }
-  }
+  text: _arg0.fontFamily.barlow.value,
+  primitive: collection.primitive
+    
+  
 }
 
 
