@@ -1,7 +1,7 @@
   // interface FcxProps {
 
 import { two } from './collections/collection';
-import { third } from './groups';
+import { third } from './collections/primitives/groups';
 
 // console.log(js)
 

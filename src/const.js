@@ -1,5 +1,5 @@
   // interface FcxProps {
-import { collection } from './collections/collection';
+import { groupsprimitive } from './collections/primitives/groups';
 
 
   //   text: any
@@ -38,8 +38,8 @@ import { collection } from './collections/collection';
 // const rega = replace(/.*\./, "").replace("{","").replace("}","");
 
 export const fcx = {
-  text: _arg0.fontFamily.barlow.value,
-  primitive: collection.primitive
+  text: null,
+  primitive: groupsprimitive
     
   
 }

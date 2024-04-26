@@ -1,4 +1,4 @@
-import { collection } from './collection';
+import { collection } from '../collection';
 const fs = require('fs');
   const filePath = './src/tokens/fcx.json'
   
