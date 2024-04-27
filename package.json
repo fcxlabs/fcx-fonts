@@ -1,6 +1,6 @@
 {
   "name": "@fcxlabs/fonts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Fonts package for FCx Labs",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -16,7 +16,7 @@
     "preversion": "npm run lint",
     "version": "npm run format",
     "postversion": "git push && git push --tags",
-    "postinstall": ""
+    "publish": "npm publish --access public"
   },
   "prepublish": "npm run build",
   "devDependencies": {

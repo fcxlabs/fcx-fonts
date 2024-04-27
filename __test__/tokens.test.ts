@@ -1,26 +1,16 @@
 import { tokensindex } from '../src/collections/tokens.js';
 import { fcx } from '../src/const.js';
 
-
-// const propertyObjects = Object.keys(collection.tokens.body).map(propertyName => {
-//   return {
-//     [propertyName]: 'collection.primitive.'+collection.tokens.body[propertyName]['value'].replace(/\..*/, "").replace("{","").replace("}","")+'[\''+collection.tokens.body[propertyName]['value'].replace(/.*\./, "").replace("{","").replace("}","")+'\']'
-//   };
-// });
-//console.log(propertyObjects)
-//console.log(Object.keys(collection.tokens.body.fontFamily) + ': ' + collection.tokens);
-
   test("Primitive Tokens", () => {
     expect(fcx.primitive.fontSize[54]).toBe(54);
     }
   );
-  test("obj Tokens", () => {
+
+  test("Tokens", () => {
     expect(fcx.tokens['(16)body'].fontFamily).toBe("Inter");
+    expect(fcx.tokens['(18)paragraph'].fontStyle).toBe("Regular");
+    expect(fcx.tokens['(24)title(default)'].fontSize).toBe(24);
     }
   );
-
-
-
-  
 
   console.log(tokensindex);
