@@ -15,7 +15,7 @@ import { fcx } from '../src/const.js';
     }
   );
   test("obj Tokens", () => {
-    expect(fcx.tokens.body.fontFamily).toBe("Inter");
+    expect(fcx.tokens['(16)body'].fontFamily).toBe("Inter");
     }
   );
 

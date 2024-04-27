@@ -1,6 +1,6 @@
 {
   "name": "@fcxlabs/fonts",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Fonts package for FCx Labs",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

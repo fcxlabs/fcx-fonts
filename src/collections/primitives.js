@@ -55,7 +55,8 @@ export const primitive = {
   lineHeight: {
     16: parseInt(collection.primitive.lineHeight[16].value.slice(0, -2), number),
     20: parseInt(collection.primitive.lineHeight[20].value.slice(0, -2), number),
-    24: parseInt(collection.primitive.lineHeight[28].value.slice(0, -2), number),
+    24: parseInt(collection.primitive.lineHeight[24].value.slice(0, -2), number),
+    28: parseInt(collection.primitive.lineHeight[28].value.slice(0, -2), number),
     32: parseInt(collection.primitive.lineHeight[32].value.slice(0, -2), number),
     40: parseInt(collection.primitive.lineHeight[40].value.slice(0, -2), number),
     44: parseInt(collection.primitive.lineHeight[44].value.slice(0, -2), number),
