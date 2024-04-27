@@ -621,10 +621,6 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": [
-      "tokens/value",
-      "_Primitive/Mode 1",
-      "Semantic/Mode 1"
-    ]
+    "tokenSetOrder": ["tokens/value", "_Primitive/Mode 1", "Semantic/Mode 1"]
   }
 }
